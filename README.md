@@ -9,6 +9,25 @@ This tool requires npm, node.js, web3
 3. In project folder run 
   npm install web3@^0.20.0
  
+## DB setup 
+This is the CREATE TABLE sql 
+```sql
+CREATE TABLE transactions(
+  hash CHARACTER(66),
+  blockHash CHARACTER(66),
+  blockNumber INTEGER,
+  from_addr CHARACTER(42),
+  gas INTEGER,
+  gasPrice BIGINT,
+  input VARCHAR,
+  nonce INTEGER,
+  to_addr CHARACTER(42),
+  transactionIndex SMALLINT,
+  v VARCHAR,
+  value NUMERIC
+)
+
+ 
 ## Usage 
 node app.js [start block id]  [end block id]
   
