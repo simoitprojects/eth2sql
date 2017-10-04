@@ -14,4 +14,5 @@ node app.js [start block id]  [end block id]
   
 EXAMPLE: 
   node app.js 2000000 2000004
+  
   This will print INSERT lines for transactions in Ethereum blocks from  2000000 to 2000004
