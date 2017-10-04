@@ -26,6 +26,7 @@ CREATE TABLE transactions(
   v VARCHAR,
   value NUMERIC
 )
+```
 
  
 ## Usage 
